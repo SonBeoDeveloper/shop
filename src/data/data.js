@@ -423,8 +423,8 @@ const footerData = [
     title: "Company",
     links: [
       { text: "About Us", url: "/contact" },
-      { text: "Achats Blog", url: "/blog" },
-      { text: "Achatsian", url: "/achatsian" },
+      { text: "SonBeo Blog", url: "/blog" },
+      { text: "SonBeoian", url: "/SonBeoian" },
       { text: "Collaboration", url: "/collaboration" },
       { text: "Media", url: "/media" },
     ],

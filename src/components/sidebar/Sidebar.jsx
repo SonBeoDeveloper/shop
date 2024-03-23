@@ -101,7 +101,7 @@ const Sidebar = () => {
           <div className="brand-img-wrap flex items-center justify-center">
             <img className="site-brand-img" src={staticImages.logo} />
           </div>
-          <span className="site-brand-text text-outerspace">achats.</span>
+          <span className="site-brand-text text-outerspace">SonBeo.</span>
         </SiteBrandWrapper>
         <form className="sidenav-search-form">
           <InputGroupWrapper className="input-group">
@@ -120,9 +120,8 @@ const Sidebar = () => {
             <li key={menu.id}>
               <Link
                 to={menu.menuLink}
-                className={`flex items-center text-gray ${
-                  location.pathname === menu.menuLink ? "active" : ""
-                }`}
+                className={`flex items-center text-gray ${location.pathname === menu.menuLink ? "active" : ""
+                  }`}
               >
                 <span className="text-xxl">
                   <i className={`bi bi-${menu.iconName}`}></i>

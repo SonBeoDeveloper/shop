@@ -140,7 +140,7 @@ const Header = () => {
                   alt="site logo"
                 />
               </div>
-              <span className="site-brand-text text-outerspace">achats.</span>
+              <span className="site-brand-text text-outerspace">SonBeo.</span>
             </SiteBrandWrapper>
           </div>
           <NavigationAndSearchWrapper className="flex items-center">
@@ -177,28 +177,25 @@ const Header = () => {
           <IconLinksWrapper className="flex items-center">
             <Link
               to="/wishlist"
-              className={`icon-link ${
-                location.pathname === "/wishlist" ? "active" : ""
-              } inline-flex items-center justify-center`}
+              className={`icon-link ${location.pathname === "/wishlist" ? "active" : ""
+                } inline-flex items-center justify-center`}
             >
               <img src={staticImages.heart} alt="" />
             </Link>
             <Link
               to="/account"
-              className={`icon-link ${
-                location.pathname === "/account" ||
-                location.pathname === "/account/add"
+              className={`icon-link ${location.pathname === "/account" ||
+                  location.pathname === "/account/add"
                   ? "active"
                   : ""
-              } inline-flex items-center justify-center`}
+                } inline-flex items-center justify-center`}
             >
               <img src={staticImages.user} alt="" />
             </Link>
             <Link
               to="/cart"
-              className={`icon-link ${
-                location.pathname === "/cart" ? "active" : ""
-              } inline-flex items-center justify-center`}
+              className={`icon-link ${location.pathname === "/cart" ? "active" : ""
+                } inline-flex items-center justify-center`}
             >
               <img src={staticImages.cart} alt="" />
             </Link>
