@@ -140,7 +140,7 @@ const Header = () => {
                   alt="site logo"
                 />
               </div>
-              <span className="site-brand-text text-outerspace">SonBeo.</span>
+              <span className="site-brand-text text-outerspace">Còi's Luxury</span>
             </SiteBrandWrapper>
           </div>
           <NavigationAndSearchWrapper className="flex items-center">
@@ -185,9 +185,9 @@ const Header = () => {
             <Link
               to="/account"
               className={`icon-link ${location.pathname === "/account" ||
-                  location.pathname === "/account/add"
-                  ? "active"
-                  : ""
+                location.pathname === "/account/add"
+                ? "active"
+                : ""
                 } inline-flex items-center justify-center`}
             >
               <img src={staticImages.user} alt="" />
